@@ -5,10 +5,9 @@
     function F__ID(){
         //-------------------------------------
         VmInclude:__COMPONENT__/grid/grid.v3.js
-
         VmInclude:__CURRENT_PATH__/task.js
         //-------------------------------------
-        var _task_fields="current_work";
+        _task_fields="1. Do you consider yourself ot have normal hearing?|normal,Do you wear any hearing aids?|hearing_aid,Did the person seen to hear/understandyou clearly?|understand";
         _fields="_Form|form_module,Status|S3,Notes|NT,Participant,"+_task_fields;
         _fields+=",Submit Date|DateTime,Submitted by|Author,_Delete,_Hidden|Participant_uid";
         //-------------------------------------
@@ -17,6 +16,16 @@
         //-------------------------------------
         _cell_render=function(records,I,field,td,set_value,source){
             _default_cell_render(records,I,field,td,set_value,source);
+            switch(field){
+                case 'normal':
+                case 'hearing_aid':
+                case 'understand':
+                    var html='<input type="radio" name="'+field+'" value="Yes"> Yes';
+                    html+=' <input type="radio" name="'+field+'" value="No"> No';
+                    VmInclude:__PARTS__/grid/field_radio_button.js
+                    break;
+            }
+
         }
         //-------------------------------------
         _before_submit=function(record,dbv){
