@@ -2,7 +2,7 @@
 	"modules":
 	{
 		"consent-s":    {"table_id":"91000062","url":"/modules/edc/task/consent.html","name_for_search":"Screening - Consent"},
-		"general-s":    {"table_id":"91000004","url":"/modules/edc/task/general-information.html","name_for_search":"Screening - General Information"},
+		"general-s":    {"table_id":"91000063","url":"/modules/edc/task/general-information.html","name_for_search":"Screening - General Information"},
 		"wns-s":    {"table_id":"91000004","url":"/modules/edc/task/wns.html","name_for_search":"Screening - Weinstein’s Noise Sensitivity Scale (WNS)"},
 		"shiftwork-s":    {"table_id":"91000057","url":"/modules/edc/task/shiftwork.html","name_for_search":"Screening - Shiftwork Questionnaire"},
 		"medication-s":    {"table_id":"91000058","url":"/modules/edc/task/medication.html","name_for_search":"Screening - Medication"},
@@ -66,7 +66,7 @@
 			"list":{
 				"Screening":[
 					{"table_id":"91000062","task_name":"Screening - Consent"},
-					{"table_id":"91000004","task_name":"Screening - General Information"},
+					{"table_id":"91000063","task_name":"Screening - General Information"},
 					{"table_id":"91000057","task_name":"Screening - Shiftwork Questionnaire"},
 					{"table_id":"91000004","task_name":"Screening - Weinstein’s Noise Sensitivity Scale (WNS)"},
 				    {"table_id":"91000058","task_name":"Screening - Medication"},
