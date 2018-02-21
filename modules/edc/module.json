@@ -27,7 +27,9 @@
 		"dass-21-b":    {"table_id":"91000011","url":"/modules/edc/task/dass-21.html","name_for_search":"Baseline - DASS-21"},
 		"blood-and-urine-b":    {"table_id":"91000041","url":"/modules/edc/task/blood-urine.html","name_for_search":"Baseline - Blood and Urine"},
 		"attitudes-on-wind-farms-b":    {"table_id":"91000017","url":"/modules/edc/task/attitudes-on-wind-farms.html","name_for_search":"Baseline - Attitudes on Wind farms"},
-		"annoyance-measurements-b":    {"table_id":"91000047","url":"/modules/edc/task/vas.html","name_for_search":"Baseline - Annoyance and Wind Turbine Syndrome measurements"},
+		"visual-analogue-scale-b":    {"table_id":"91000047","url":"/modules/edc/task/vas.html","name_for_search":"Baseline - Visual Analogue Scale"},
+		"noise-annoyance-scale-b":    {"table_id":"91000067","url":"/modules/edc/task/noise.html","name_for_search":"Baseline - Noise Annoyance Scale"},
+
 		"actigraphy-b":    {"table_id":"91000019","url":"/modules/edc/task/actiwatch.html","name_for_search":"Baseline - Actigraphy"},
 		"wemwbs-3":    {"table_id":"91000052","url":"/modules/edc/task/wewb.html","name_for_search":"3Month - Warwick Edinburgh Mental Well-being Scale (WEMWBS)"},
 		"tower-of-london-3":    {"table_id":"91000030","url":"/modules/edc/task/tower-of-london.html","name_for_search":"3Month - Tower of London"},
@@ -43,7 +45,8 @@
 		"epworth-sleepiness-scale-3":    {"table_id":"91000009","url":"/modules/edc/task/epworth-sleepiness-scale.html","name_for_search":"3Month - Epworth Sleepiness Scale"},
 		"dass-21-3":    {"table_id":"91000012","url":"/modules/edc/task/dass-21.html","name_for_search":"3Month - DASS-21"},
 		"blood-and-urine-3":    {"table_id":"91000042","url":"/modules/edc/task/blood-urine.html","name_for_search":"3Month - Blood and Urine"},
-		"annoyance-measurements-3":    {"table_id":"91000048","url":"/modules/edc/task/vas.html","name_for_search":"3Month - Annoyance and Wind Turbine Syndrome measurements"},
+		"visual-analogue-scale-3":    {"table_id":"91000048","url":"/modules/edc/task/vas.html","name_for_search":"3Month - Visual Analogue Scale"},
+		"noise-annoyance-scale-3":    {"table_id":"91000068","url":"/modules/edc/task/noise.html","name_for_search":"3Month - Noise Annoyance Scale"},
 		"actigraphy-3":    {"table_id":"91000020","url":"/modules/edc/task/actiwatch.html","name_for_search":"3Month - Actigraphy"},
 		"wemwbs-6":    {"table_id":"91000053","url":"/modules/edc/task/wewb.html","name_for_search":"6Month - Warwick Edinburgh Mental Well-being Scale (WEMWBS)"},
 		"tower-of-london-6":    {"table_id":"91000031","url":"/modules/edc/task/tower-of-london.html","name_for_search":"6Month - Tower of London"},
@@ -59,7 +62,8 @@
 		"epworth-sleepiness-scale-6":    {"table_id":"91000010","url":"/modules/edc/task/epworth-sleepiness-scale.html","name_for_search":"6Month - Epworth Sleepiness Scale"},
 		"dass-21-6":    {"table_id":"91000013","url":"/modules/edc/task/dass-21.html","name_for_search":"6Month - DASS-21"},
 		"blood-and-urine-6":    {"table_id":"91000043","url":"/modules/edc/task/blood-urine.html","name_for_search":"6Month - Blood and Urine"},
-		"annoyance-measurements-6":    {"table_id":"91000049","url":"/modules/edc/task/vas.html","name_for_search":"6Month - Annoyance and Wind Turbine Syndrome measurements"},
+		"visual-analogue-scale-6":    {"table_id":"91000049","url":"/modules/edc/task/vas.html","name_for_search":"6Month - Visual Analogue Scale"},
+		"noise-annoyance-scale-6":    {"table_id":"91000069","url":"/modules/edc/task/noise.html","name_for_search":"6Month - Noise Annoyance Scale"},
 		"actigraphy-6":    {"table_id":"91000021","url":"/modules/edc/task/actiwatch.html","name_for_search":"6Month - Actigraphy"},
 
 		"quest_list":{
@@ -83,7 +87,8 @@
 					{"table_id":"91000050","task_name":"Baseline - EYSENCK Personality Questionnaire"},
 					{"table_id":"91000008","task_name":"Baseline - Epworth Sleepiness Scale"},
 					{"table_id":"91000011","task_name":"Baseline - DASS-21"},
-					{"table_id":"91000047","task_name":"Baseline - Annoyance and Wind Turbine Syndrome measurements"},
+					{"table_id":"91000047","task_name":"Baseline - Visual Analogue Scale"},
+					{"table_id":"91000067","task_name":"Baseline - Noise Annoyance Scale"},
 					{"table_id":"91000029","task_name":"Baseline - Tower of London"},
 				    {"table_id":"91000026","task_name":"Baseline - N-back"}
 				],
@@ -94,7 +99,8 @@
 					{"table_id":"91000009","task_name":"3Month - Epworth Sleepiness Scale"},
 					{"table_id":"91000007","task_name":"3Month - Insomnia Severity Index"},
 					{"table_id":"91000012","task_name":"3Month - DASS-21"},
-					{"table_id":"91000048","task_name":"3Month - Annoyance and Wind Turbine Syndrome measurements"},
+					{"table_id":"91000048","task_name":"3Month - Visual Analogue Scale"},
+					{"table_id":"91000068","task_name":"3Month - Noise Annoyance Scale"},
 					{"table_id":"91000030","task_name":"3Month - Tower of London"},
 					{"table_id":"91000027","task_name":"3Month - N-back"}
 				],
@@ -105,7 +111,8 @@
 					{"table_id":"91000060","task_name":"6Month - Insomnia Severity Index"},
 					{"table_id":"91000010","task_name":"6Month - Epworth Sleepiness Scale"},
 					{"table_id":"91000013","task_name":"6Month - DASS-21"},
-					{"table_id":"91000049","task_name":"6Month - Annoyance and Wind Turbine Syndrome measurements"},
+					{"table_id":"91000049","task_name":"6Month - Visual Analogue Scale"},
+					{"table_id":"91000069","task_name":"6Month - Noise Annoyance Scale"},
 				    {"table_id":"91000031","task_name":"6Month - Tower of London"},
 				    {"table_id":"91000028","task_name":"6Month - N-back"}
 				]
