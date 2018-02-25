@@ -65,6 +65,7 @@
 		"visual-analogue-scale-6":    {"table_id":"91000049","url":"/modules/edc/task/vas.html","name_for_search":"6Month - Visual Analogue Scale"},
 		"noise-annoyance-scale-6":    {"table_id":"91000069","url":"/modules/edc/task/noise.html","name_for_search":"6Month - Noise Annoyance Scale"},
 		"actigraphy-6":    {"table_id":"91000021","url":"/modules/edc/task/actiwatch.html","name_for_search":"6Month - Actigraphy"},
+		"n2-back-p":    {"table_id":"91000070","url":"/modules/edc/task/n-back.html","name_for_search":"Practice N-back"},"n2-back-p-form": {"table_id":"91000070","url":"/modules/edc/task/n2-back-practice.form.html"},
 
 		"quest_list":{
 			"list":{
@@ -115,6 +116,9 @@
 					{"table_id":"91000069","task_name":"6Month - Noise Annoyance Scale"},
 				    {"table_id":"91000031","task_name":"6Month - Tower of London"},
 				    {"table_id":"91000028","task_name":"6Month - N-back"}
+				],
+				"6 Month":[
+				    {"table_id":"91000070","task_name":"Practice - N-back"}
 				]
 			}
 		}

@@ -5,10 +5,10 @@
     function F__ID(){
         //-------------------------------------
         VmInclude:__COMPONENT__/grid/grid.v3.js
-        
+
         VmInclude:__CURRENT_PATH__/task.js
         //-------------------------------------
-        _task_fields="HEADACHES,RINGING,ITCH,BLUR,DIZZY,HEART,VERTIGO,NAUSEA,TIREDNESS,FAINT,SLEEPINESS,CONCENTRATING,MEMORY,FATIGUE,IRRITABILITY,MUSCLE,DISRUPTEDSLEEP,AWAKEN,ANXIETY";
+        _task_fields="HEADACHES,RINGING,SOREJAW,ITCH,BLUR,STOMACH,DIZZY,HEART,VERTIGO,NAUSEA,TIREDNESS,FAINT,SLEEPINESS,CONCENTRATING,MEMORY,FATIGUE,IRRITABILITY,MUSCLE,TREMBLE,DISRUPTEDSLEEP,AWAKEN,ANXIETY";
         _fields="_Form|form_module,Status|S3,Notes|NT,Participant,"+_task_fields;
         _fields+=",Submit Date|DateTime,Submitted by|Author,_Delete,_Hidden|Participant_uid";
         _grid_to_form_parameters={task_fields:_task_fields};
