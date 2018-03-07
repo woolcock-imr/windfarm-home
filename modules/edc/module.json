@@ -1,6 +1,12 @@
 {
 	"modules":
 	{
+		"consent2-s":    {"table_id":"91000078","url":"/modules/edc/task/consent2.html","name_for_search":"Screening - Consent 2"},
+		"check-eligibility-s":    {"table_id":"91000077","url":"/modules/edc/task/check-eligibility.html","name_for_search":"Screening - Check Eligibility"},
+		"sleep-diary-s":    {"table_id":"91000073","url":"/modules/edc/task/file-upload.html","name_for_search":"Screening - Sleep Diary"},
+		"sleep-diary-b":    {"table_id":"91000074","url":"/modules/edc/task/file-upload.html","name_for_search":"Baseline - Sleep Diary"},
+		"sleep-diary-3":    {"table_id":"91000075","url":"/modules/edc/task/file-upload.html","name_for_search":"3 Month - Sleep Diary"},
+		"sleep-diary-6":    {"table_id":"91000076","url":"/modules/edc/task/file-upload.html","name_for_search":"6 Month - Sleep Diary"},
 		"consent-s":    {"table_id":"91000062","url":"/modules/edc/task/consent.html","name_for_search":"Screening - Consent"},
 		"general-s":    {"table_id":"91000063","url":"/modules/edc/task/general-information.html","name_for_search":"Screening - General Information"},
 		"wns-s":    {"table_id":"91000004","url":"/modules/edc/task/wns.html","name_for_search":"Screening - Weinstein’s Noise Sensitivity Scale (WNS)"},
@@ -75,10 +81,12 @@
 					{"table_id":"91000063","task_name":"Screening - General Information"},
 					{"table_id":"91000057","task_name":"Screening - Shiftwork Questionnaire"},
 					{"table_id":"91000004","task_name":"Screening - Weinstein’s Noise Sensitivity Scale (WNS)"},
-				    {"table_id":"91000058","task_name":"Screening - Medication"},
+					{"table_id":"91000077","task_name":"Screening - Eligibility Check"},
+			    	{"table_id":"91000058","task_name":"Screening - Medication"},
 					{"table_id":"91000072","task_name":"Screening - Sleep Disorders and Patterns Questionnaire"},
 				    {"table_id":"91000059","task_name":"Screening - Medical History"},
-				    {"table_id":"91000005","task_name":"Screening - Insomnia Severity Index"}
+				    {"table_id":"91000005","task_name":"Screening - Insomnia Severity Index"},
+					{"table_id":"91000078","task_name":"Screening - Consent 2"}
 				],
 				"Baseline":[
 					{"table_id":"91000017","task_name":"Baseline - Attitudes on Wind farms"},
