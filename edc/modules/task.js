@@ -1,7 +1,7 @@
 //-------------------------------------
 var prefix=$vm.module_list[$vm.vm['__ID'].name].prefix; if(prefix==undefined) prefix="";
 //-------------------------------------
-var participant_pid=$vm.module_list[prefix+'participant'].table_id;
+var participant_pid=$vm.module_list[prefix+'participant-data'].table_id;
 var notes_pid=$vm.module_list[prefix+'edc-notes'].table_id;
 //var sql_participant="@('Initials')";
 var sql_participant="JSON_VALUE(Information,'$.Initials')";

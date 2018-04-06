@@ -1,0 +1,10 @@
+{
+	"modules":
+	{
+		"participant-data":{"table_id":"91000001", "url":"participant-and-others/modules/participant-data.html","notes":"91000002","login_setup":"91000003","form_module":"participant-form","name_for_search":"Participant data"},
+		"participant-form":{"table_id":"91000001", "url":"participant-and-others/modules/participant-form.html","notes":"91000002","login_setup":"91000003","name_for_search":"Participant form"},
+		"__participant":	  {"table_id":"91000001","url":"participant-and-others/modules/participant-data.html", "name_for_search":"Participant"},
+		"edc-notes":	  {"table_id":"91000002","url":"participant-and-others/modules/edc-notes.html", "name_for_search":"EDC notes"},
+		"login-setup":	  {"table_id":"91000003","url":"participant-and-others/modules/participant-login-setup.html", "name_for_search":"Login setup"}
+	}
+}
