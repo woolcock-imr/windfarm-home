@@ -4,7 +4,7 @@ var prefix=$vm.module_list[$vm.vm['__ID'].name].prefix; if(prefix==undefined) pr
 var participant_pid=$vm.module_list[prefix+'participant-data'].table_id;
 var notes_pid=$vm.module_list[prefix+'edc-notes'].table_id;
 //var sql_participant="@('Initials')";
-var sql_participant="JSON_VALUE(Information,'$.Initials')";
+var sql_participant="JSON_VALUE(Information,'$.Screening_ID')"; //+' '+JSON_VALUE(Information,'$.Initials')
 //-------------------------------------
 _record_type="s2";
 var _task_fields='';
@@ -142,7 +142,7 @@ var _set_status_and_participant=function(record,dbv){    //set status color, PUI
 };
 //-------------------------------------
 _new_pre_data_process=function(){
-    if($vm.vm['__ID'].op.participant_uid!==undefined) _records[0].Participant_uid=$vm.vm['__ID'].op.participant_uid;
-    if($vm.vm['__ID'].op.participant_name!==undefined) _records[0].Participant=$vm.vm['__ID'].op.participant_name;
+	if($vm.vm['__ID'].op.input!=undefined && $vm.vm['__ID'].op.input.participant_uid!==undefined) _records[0].Participant_uid=$vm.vm['__ID'].op.input.participant_uid;
+    if($vm.vm['__ID'].op.input!=undefined && $vm.vm['__ID'].op.input.participant_name!==undefined) _records[0].Participant=$vm.vm['__ID'].op.input.participant_name;
 }
 //-------------------------------------
