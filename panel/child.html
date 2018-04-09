@@ -88,7 +88,7 @@
 					alert(prefix+m +" is not in the module list.");
 					return;
 				}
-				$vm.nav_load_module(prefix+m,"",{participant_uid:record.UID});
+				$vm.nav_load_module(prefix+m,"",{participant_uid:record.UID,participant_name:record.Screening_ID});
 			}
 		})
 		//--------------------------------------------------------
