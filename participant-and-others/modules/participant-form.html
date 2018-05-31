@@ -4,8 +4,9 @@
 	</div>
 	<form id=F__ID>
 		<div class="container">
-			<div class="row row__ID"><div class="col-sm col-lg-3">Screening ID</div><div class="col-sm"><input type="text" placeholder="First Name" class="form-control" name="Screening_ID" /></div></div>
-			<div class="row row__ID"><div class="col-sm col-lg-3">Randomisation ID</div><div class="col-sm"><input type="text" placeholder="Last Name" class="form-control" name="Randomisation_ID" /></div></div>
+			<div class="row row__ID"><div class="col-sm col-lg-3">Registration ID</div><div class="col-sm"><input type="number" class="form-control" name="Registration_ID" /></div></div>
+			<div class="row row__ID"><div class="col-sm col-lg-3">Screening ID</div><div class="col-sm"><input type="text" class="form-control" name="Screening_ID" /></div></div>
+			<div class="row row__ID"><div class="col-sm col-lg-3">Randomisation ID</div><div class="col-sm"><input type="text" class="form-control" name="Randomisation_ID" /></div></div>
 			<div class="row row__ID"><div class="col-sm col-lg-3">Initials</div><div class="col-sm"><input type="text" placeholder=Initials class="form-control" name=Initials /></div></div>
 			<div class="row row__ID"><div class="col-sm col-lg-3">Sex</div><div class="col-sm"><select class="form-control" name="Sex" required >
 				<option></option>
@@ -35,6 +36,7 @@
 		})
 		//-------------------------------------
         var _before_submit=function(record,dbv){
+			dbv.PUID=record.Registration_ID;
             return true;
         };
         //-------------------------------------
